@@ -3,8 +3,8 @@
     * TODO
       * 语法
         - [ ] [看一遍php的更新历史](https://secure.php.net/manual/en/migration5.php)
-        - [ ] [写一个php拓展demo](https://www.cnblogs.com/boystar/p/6904795.html)
-      * 项目
+        - [ ] [写一个php拓展demo](https://www.cnblogs.com/boystar/p/6904795.html)
+      * 项目
         - [ ] [安装swoole，了解如何解耦合业务](https://github.com/imRainChen/Mega-WeChat)
   * 优秀项目
     * [php可以很规整 框架，array access](https://github.com/wenbinye/kuiper-framework)
