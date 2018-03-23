@@ -1,7 +1,14 @@
 ## [elisp](http://www.gnu.org/software/emacs/manual/html_node/elisp/)
 *	TODO
-    * - [ ] [完成贪吃蛇](https://github.com/chengxueming/snake-game-eLisp)
-* 优秀项目
+    - [ ] [完成贪吃蛇](https://github.com/chengxueming/snake-game-eLisp)
+    - [ ] 写一个基于命令行的redis emacs shell，在执行hgetall，zrange时用字符图形显示key的内容（就像[redis in action](https://book.douban.com/subject/10597898/)一样）
+					
+				 --article:92617----------------------- 
+				|                                      |
+				|                                      |
+				|                                      |
+				 -------------------------------------- 
+* 优秀项目		
     * [火焰](https://github.com/johanvts/emacs-fireplace)
     
 ## [spacemacs](http://spacemacs.org/doc/DOCUMENTATION.html)
