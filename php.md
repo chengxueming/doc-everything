@@ -14,7 +14,7 @@
       - [ ] [研究如何在php里实现di](https://github.com/wenbinye/kuiper-framework/tree/master/components/di/src)
       - [ ] [研究如何在php里实现注解](https://github.com/wenbinye/kuiper-framework/tree/master/components/annotations/src)
       - [ ] [如何使用php的控制台，面向对象的interface作用](https://github.com/wenbinye/kuiper-framework/tree/master/components/console/src)
-      - [ ] [如何使用php的psr4自动加载，尝试使用命名空间](https://www.php-fig.org/psr/psr-4/)
+      - [x] [如何使用php的psr4自动加载，尝试使用命名空间](https://www.php-fig.org/psr/psr-4/)
     * [php的微信封装 没太研究 应该很好](https://github.com/overtrue/wechat)
     * [php发模版消息 我也写过模版消息 但人有后台，内容拓展更强，也不像我来回要复制代码](https://github.com/imRainChen/Mega-WeChat)
    		- [ ] 安装swoole，hello word版[task处理](https://wiki.swoole.com/wiki/page/p-worker.html)
