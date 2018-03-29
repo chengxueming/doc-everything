@@ -9,7 +9,7 @@
       	  - [ ] [安装swoole，了解如何解耦合业务](https://github.com/imRainChen/Mega-WeChat)
   * 优秀项目
     * [php可以很规整 框架，array access](https://github.com/wenbinye/kuiper-framework)
-      - [ ] [走通流程 hello world](https://github.com/wenbinye/kuiper-framework/blob/master/docs/index.rst)
+      - [x] [走通流程 hello world](https://github.com/wenbinye/kuiper-framework/blob/master/docs/index.rst)
       - [ ] [熟悉对php函数的oo封装](https://github.com/wenbinye/kuiper-framework/tree/master/components/helper/src)
       - [ ] [研究如何在php里实现di](https://github.com/wenbinye/kuiper-framework/tree/master/components/di/src)
       - [ ] [研究如何在php里实现注解](https://github.com/wenbinye/kuiper-framework/tree/master/components/annotations/src)
