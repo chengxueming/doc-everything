@@ -16,7 +16,7 @@
 	* 插件
 		*  [magit](https://magit.vc/manual/magit/)
 	    	- [ ] 查看文件annotation
-	    	- [ ] push代码到github,pull 代码
+	    	- [x] push代码到github,pull 代码
 	    	- [ ] 切换分支，新建分支
 	   	*  [neotree](https://github.com/jaypei/emacs-neotree)
 		   	- [ ] 如何在目录树里 切换文件时自动预览
