@@ -4,7 +4,8 @@
   - [ ] [看一遍php的更新历史](https://secure.php.net/manual/en/migration5.php)
   - [ ] [写一个php拓展demo](https://www.cnblogs.com/boystar/p/6904795.html)
   	- [ ] [demo](https://github.com/chengxueming/php-lab/tree/master/extension) php7中 拓展对数组的操作
-  - [ ] [了解使用php缓存 优化执行代码](http://php.net/manual/zh/book.opcache.php)
+  - [ ] [了解使用php缓存 优化执行代码](http://php.net/manual/zh/book.opcache.php)
+
 * [psr 标准](https://www.php-fig.org/)
   - [x] [如何使用php的psr4自动加载，尝试使用命名空间](https://www.php-fig.org/psr/psr-4/)
   - [ ] [psr 7 http标准](https://www.php-fig.org/psr/psr-7/) 使用http client [guzzle/guzzle](https://github.com/guzzle/guzzle)
