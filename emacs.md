@@ -24,3 +24,8 @@
 		- [ ] [写一个可以在重启还存在的函数，可以把选中的多行文本转换为逗号列表](http://book.emacs-china.org/#orgheadline90)
 * 学习资源
   * [子龙山人系列，至少layout从那知道的](https://github.com/emacs-china/Spacemacs-rocks)
+  
+## Links
+- [Oleh Krehel](https://github.com/abo-abo)的[个人网站](https://oremacs.com/archive/)
+- [emacs-china 子龙山人的源](https://emacs-china.org/t/topic/2447)
+- [emacs-china markdown预览](https://emacs-china.org/t/markdown/1549/2)
