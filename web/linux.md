@@ -10,6 +10,10 @@
   root     pts/3    111.199.184.247  00:26    2:07   0.01s  0.01s -bash
   ```
   pkill -kill -t pts/3 强制用户下线
+* 文件传输
+  ```
+  scp  ~/Desktop/php-lab/superset/2015.csv root@58.87.113.132:/root/
+  ```
 
 ## 文章列表
 - [rm 添加垃圾桶](https://linux.cn/article-9425-1.html)
@@ -20,10 +24,23 @@
 ## pgsql安装
 - [CentOS下，yum安装PostgreSQL](https://blog.csdn.net/gaojinshan/article/details/40980653)
 - [PostgreSQL安装详细步骤（linux)](https://www.cnblogs.com/qiyebao/p/4562557.html)
+- [PostgreSQL-9.6.3数据库的启动、登录、退出、关闭](https://blog.csdn.net/nextaction/article/details/63695067)
+- [PostgreSQL 用户和权限管理](https://blog.csdn.net/italyfiori/article/details/43966109)
+- [给postgresql 创建新的用户](https://www.cnblogs.com/oxspirt/p/6218028.html)
+- [ubuntu postgresql](https://help.ubuntu.com/stable/serverguide/postgresql.html)
 ```
 su postgres
 sudo chown postgres /var/lib/pgsql/data
 initdb /var/lib/pgsql/data
 postmaster -D /var/lib/pgsql/data
 createdb weather
+
+sudo -u postgres psql template1
+psql -h localhost -U cxm -W
+ALTER USER postgres with encrypted password '*****';
+systemctl restart postgresql.service
+
+\dt
+\du
+\q
 ```
