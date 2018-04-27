@@ -13,3 +13,17 @@
 
 ## 文章列表
 - [rm 添加垃圾桶](https://linux.cn/article-9425-1.html)
+- [Linux创建用户、设置密码、修改用户、删除用户命令](https://www.linuxidc.com/Linux/2017-06/144916.htm)
+- [Linux为普通用户添加sudo权限](https://www.linuxidc.com/Linux/2017-01/139361.htm)
+- [勒索病毒](https://pastebin.com/irRUf14s)
+
+## pgsql安装
+- [CentOS下，yum安装PostgreSQL](https://blog.csdn.net/gaojinshan/article/details/40980653)
+- [PostgreSQL安装详细步骤（linux)](https://www.cnblogs.com/qiyebao/p/4562557.html)
+```
+su postgres
+sudo chown postgres /var/lib/pgsql/data
+initdb /var/lib/pgsql/data
+postmaster -D /var/lib/pgsql/data
+createdb weather
+```
