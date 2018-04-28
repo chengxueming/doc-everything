@@ -14,7 +14,13 @@
   ```
   scp  ~/Desktop/php-lab/superset/2015.csv root@58.87.113.132:/root/
   ```
-
+* 网络相关
+  * 端口占用
+  ```
+  netstat -tunlp | grep 5432
+  lsof -i:8000
+  ```
+* 关于service
 ## 文章列表
 - [rm 添加垃圾桶](https://linux.cn/article-9425-1.html)
 - [Linux创建用户、设置密码、修改用户、删除用户命令](https://www.linuxidc.com/Linux/2017-06/144916.htm)
@@ -28,6 +34,8 @@
 - [PostgreSQL 用户和权限管理](https://blog.csdn.net/italyfiori/article/details/43966109)
 - [给postgresql 创建新的用户](https://www.cnblogs.com/oxspirt/p/6218028.html)
 - [ubuntu postgresql](https://help.ubuntu.com/stable/serverguide/postgresql.html)
+- [Mac下启动postgrsql提示another server might be running的解决](https://blog.csdn.net/mydo/article/details/55047830)
+- [postgresal使用错误解决 （记录篇）](https://blog.csdn.net/wangyezi19930928/article/details/20358369)
 ```
 su postgres
 sudo chown postgres /var/lib/pgsql/data
@@ -43,4 +51,9 @@ systemctl restart postgresql.service
 \dt
 \du
 \q
+
+vim /var/lib/pgsql/data/pg_hba.conf
+# IPv4 local connections:
+host    all             all             127.0.0.1/32            trust(旧值peer)
+否则-h localhost无法连接
 ```
