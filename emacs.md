@@ -29,3 +29,4 @@
 - [Oleh Krehel](https://github.com/abo-abo)的[个人网站](https://oremacs.com/archive/)
 - [emacs-china 子龙山人的源](https://emacs-china.org/t/topic/2447)
 - [emacs-china markdown预览](https://emacs-china.org/t/markdown/1549/2)
+- [emacs 宏操作“神器”](https://blog.csdn.net/lvye1221/article/details/9236399)
