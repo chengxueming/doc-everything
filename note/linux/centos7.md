@@ -52,3 +52,12 @@
     *   [Linux基础知识之用户和用户组以及 Linux 权限管理](https://www.linuxidc.com/Linux/2016-10/136251.htm)
     *   [linux系统644、755、777权限详解](https://blog.csdn.net/u014316462/article/details/52241685)
     *   [linux下查看所有用户及所有用户组](https://www.cnblogs.com/jackyyou/p/5498083.html)
+#### 5.ddos 攻击
+    ```
+    lastb
+    last
+    /etc/hosts.deny
+    ```
+*   link
+    *   [Linux用户登录记录日志和相关查看命令汇总](https://www.cnblogs.com/lizhaoxian/p/5981029.html)
+    *   [发起SSH攻击主机IP地址列表](http://antivirus.neu.edu.cn/scan/ssh.php)
