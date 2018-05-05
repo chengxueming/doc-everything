@@ -61,3 +61,28 @@
 *   link
     *   [Linux用户登录记录日志和相关查看命令汇总](https://www.cnblogs.com/lizhaoxian/p/5981029.html)
     *   [发起SSH攻击主机IP地址列表](http://antivirus.neu.edu.cn/scan/ssh.php)
+#### 6.如何免密码登陆，如何配置ssh，（通过公私钥），每次clone会先将公钥送上去比对，成功就不输入密码了么(Fingerprint是啥，怎么计算出来的）(如果在mac上登陆linux，是要将本地的公钥放到linux auth_keys中）
+    ```
+    ssh-keygen -f ~ -P ~
+    ssh-copy-id -i 私钥 host
+    ssh-add -l
+    ssh-agent 
+    ssh -i 私钥 host
+    ```
+*   link
+    *   [了解ssh代理：ssh-agent](http://www.zsythink.net/archives/2407)
+    *   [Redis 未授权访问缺陷可轻易导致系统被黑](http://blog.jobbole.com/94518/)
+#### 7.Yum 如何安装软件的，从哪里指定的镜像源，源要有什么规范（表明依赖）
+    ```
+    rpm -qa
+    rpm -qip ~
+    rpm -qf file
+    yum info ~
+    /etc/yum.repos.d
+    /var/cache/yum/x86_64/7/
+    ```
+*   link
+    *   [LFCS 系列第九讲: 使用 Yum](https://linux.cn/article-7455-1.html)
+    *   [20个rpm命令实例](https://www.tecmint.com/20-practical-examples-of-rpm-commands-in-linux/)
+    *   [linux下如何配置yum源](https://blog.csdn.net/gease_lcj/article/details/78127519)
+    *   [深入理解yum工作原理](http://www.firefoxbug.com/index.php/archives/2777/)
