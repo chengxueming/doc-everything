@@ -30,7 +30,7 @@ git revert HEAD~2
 ```
 * links
   * [代码回滚：git reset、git checkout和git revert区别和联系](https://www.cnblogs.com/houpeiyong/p/5890748.html)
-  * [在git里撤销几乎任何操作](http://blog.jobbole.com/87700/)
+  * [在git里撤销几乎任何操作](http://blog.jobbole.com/87700/)
 #### 4. Git reflog命令?
 * links
   * [git log 和 reflog](http://www.cnblogs.com/luyuefeng/p/8046443.html)
